@@ -180,11 +180,39 @@ background-color: rgb(208, 252, 255);
     }
  }
 
- @media (max-height:700px){
-    .box-form{
+  @media (orientation: landscape) and (max-height: 500px) {
+    .box-form {
+        width: 50%;
         height: 100vh;
+        margin: 15px auto;
+        padding: 10px;
         overflow-y: auto;
     }
- }
 
+    body{
+        background: url("city.jpg")no-repeat center center fixed;
+        background-size: cover;
+        font-family: Arial, Helvetica, sans-serif;
+        height: 100vh;
+        overflow: hidden;
+    }
+
+    .reg-input {
+        width: 90%;
+        margin: 10px;
+    }
+
+    button {
+        width: 70%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block; 
+    }
+    .checkbox {
+        font-size: 14px;
+        margin: 5px;
+    }
+  }
  
