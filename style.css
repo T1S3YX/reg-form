@@ -144,68 +144,23 @@ background-color: rgb(208, 252, 255);
  }
 
 
- @media (orientation: portrait) and (max-width: 400px) and (min-height: 100px) {
-    .box-form {
-        width: 80%;
-        height: 100vh;
-        margin: 1px auto;
-        padding: 5px;
-        overflow-y: auto;
-    }
-
-    body{
-        background: url("city.jpg")no-repeat center center fixed;
-        background-size: cover;
-        font-family: Arial, Helvetica, sans-serif;
-        height: 100dvh;
-        overflow: hidden;
-        background-attachment: fixed;
-    }
-
-    .reg-input {
+ @media (max-width: 400px){
+    .box-form{
         width: 90%;
-        margin: 10px;
+        height: auto;
+        margin: 50px auto;
     }
-
-    button {
-        width: 70%;
-        margin: 10px 0 0 15%;
-    }
-    .checkbox {
-        font-size: 14px;
-        margin-top: 10px;
-    }
-
-    .form-footer{
-        margin-top: 10px;
+    body{
+        overflow: auto;
     }
  }
 
-    @media (orientation: landscape) and (min-height: 500px) {
-    .box-form {
-        width: 50%;
-        height: 100vh;
-        margin: 15px auto;
-        padding: 10px;
-        overflow-y: auto;
+ @media (orientation: portrait) and (max-height: 600px){
+    .box-form{
+        margin: 20px auto;
+        height: auto;
     }
-
     body{
-        background: url("city.jpg")no-repeat center center fixed;
-        background-size: cover;
-        font-family: Arial, Helvetica, sans-serif;
-        height: 100vh;
-        overflow: hidden;
+        overflow: auto;
     }
-
-    .reg-input {
-        width: 90%;
-        margin: 10px;
-    }
-
-    button {
-        width: 70%;
-        margin: 10px 0 0 15%;  
-    }
-   
-}
+ }
