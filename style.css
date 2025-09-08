@@ -61,7 +61,7 @@ box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
 .checkbox-label{
 width: 95%;
 font-size: 15px;
-margin-left: 20px;
+margin-left: 5px;
 cursor: pointer;
 color: yellow;
 box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
@@ -168,11 +168,15 @@ background-color: rgb(208, 252, 255);
 
     button {
         width: 70%;
-        margin-left: 50px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block; 
     }
     .checkbox {
         font-size: 14px;
-        margin-left: 20px;
+        margin: 5px;
     }
  }
 
