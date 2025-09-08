@@ -168,12 +168,11 @@ background-color: rgb(208, 252, 255);
 
     button {
         width: 70%;
-        margin: 5px auto;
-        display: block;
+        margin: 10px 0 0 15%;
     }
     .checkbox {
         font-size: 14px;
-        margin-top: 20px;
+        margin-top: 10px;
     }
 
     .form-footer{
@@ -205,11 +204,7 @@ background-color: rgb(208, 252, 255);
 
     button {
         width: 70%;
-        margin: 10px auto; ; 
-        display: block;
+        margin: 10px 0 0 15%;  
     }
-    .checkbox {
-        font-size: 14px;
-    }
-  }
+   
  
