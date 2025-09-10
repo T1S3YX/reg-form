@@ -138,14 +138,14 @@ background-color: rgb(208, 252, 255);
  }
 
 
- @media (max-width: 500px){
+ @media (max-width: 420px){
     .box-form{
-        width: 90%;
+        width: 85%;
         margin: 50px auto;
         font-size: 18px;
     }
     .checkbox-label{
-        font-size: 18px;
+        font-size: 15px;
         display: block;
         margin: 10px auto;
     }
